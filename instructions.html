@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dots And Boxes</title>
+    <link rel="stylesheet" href="instructions.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Instruction</h1>
+        <div class="instruct">
+            <div class="text">
+                <ol>
+                    <li>The game will begin with an empty grid of dots. Players take turns selecting horizontal or vertical lines between two adjacent dots.</li>
+                    <li>After your turn computer or another player will play thier turn.</li>
+                    <li>If you complete the fourth side of a square, you earn a point and get another turn. </li>
+                    <li>Your box will highlighted with the color selected by you.</li>
+                    <li>The game ends when all boxes have been claimed. The player with the most points wins the game.</li>
+                </ol>
+            </div>
+        </div>
+        <button id="play">PLAY</button>
+    </div>
+</body>
+<script>
+    document.getElementById("play").onclick=()=>{
+        location.href = 'game.html'
+    }
+</script>
+</html>
