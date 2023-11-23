@@ -14,7 +14,8 @@ let cell = width / (grid_size + 2);
 let stroke = cell / 12;
 let dot = stroke;
 let margin = height - (grid_size + 1) * cell;
-
+let click = new Audio("./audio/button.mp3")
+let onBox = new Audio("./audio/onbox.wav")
 // colours
 let color_bord = "	#000d37";
 let color_border = "transparent";
@@ -202,21 +203,27 @@ function selectSide() {
   if (currentCells == null || currentCells.length == 0) {
     return;
   }
+  // sound on click
+  click.pause()
+  click.play()
 
-  // select the side(s)
   let filledSquare = false;
   for (let cell of currentCells) {
     if (squares[cell.row][cell.col].selectSide()) {
       filledSquare = true;
+      click.pause()
+      onBox.pause()
+      onBox.play()
     }
   }
   currentCells = [];
 
   if(!filledSquare){
     playersTurn = !playersTurn;
+
   }
 }
-// create the Square object constructor
+// create the Square
 function Square(x, y, w, h) {
   this.w = w;
   this.h = h;

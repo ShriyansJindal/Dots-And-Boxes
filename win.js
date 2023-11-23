@@ -7,13 +7,13 @@ if(player1score>player2score){
     document.getElementById("result").textContent = localStorage.getItem("Player1")+" won the game"
     setTimeout(() => {
         document.getElementById("result").textContent = win[random] 
-    }, 1500);
+    }, 2000);
 }
 else if(player1score<player2score){
     document.getElementById("result").textContent = localStorage.getItem("Player2")+" won the game" 
     setTimeout(() => {
         document.getElementById("result").textContent = win[random] 
-    }, 1500);   
+    }, 2000);   
 }
 else{
     document.getElementById("result").textContent = "Game Tie"    
