@@ -105,7 +105,7 @@ body {
 }
 @media all and (max-width:760px){
     body{
-        height: 100%;
+        height: 100vh;
     }
     .container{
         /* border: 2px solid red; */
@@ -118,7 +118,7 @@ body {
 
 }
 
-@media all and (max-width:400px){
+@media all and (max-width:500px){
     body{
         height: 100vh;
     }
