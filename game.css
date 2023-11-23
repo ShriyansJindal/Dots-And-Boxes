@@ -37,7 +37,7 @@ body {
 .score{
     width: 25vw;
     height: 20vw;
-    /* padding: 20px 0px; */
+    padding: 20px;
     border-radius: 30px;
     background: rgba(0, 13, 55, 0.01);
     backdrop-filter: blur(25px);
@@ -49,12 +49,12 @@ body {
 }
 .player1, .player2{
     width: 80%;
-    height: 50px;
+    /* height: 50px; */
     border-radius: 50px;
     color: white;
     font-weight: 800;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     text-transform: uppercase;
     
     
@@ -76,9 +76,6 @@ body {
 }
 
 .player1{
-    /* background-color: black;
-    border:2px solid #00ff00;
-    color: #00ff00; */
     color: #111;
     background: #39ff14;
     box-shadow: 0 0 25px #39ff14;
