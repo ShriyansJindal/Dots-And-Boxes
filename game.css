@@ -24,9 +24,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-.score-board{
-    /* border: 2px solid white; */
-}
 .score-board h2{
     font-family: jokerman;
     color: #ff941a;
