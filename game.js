@@ -1,6 +1,6 @@
 let grid_size = 5;
-let width = 400;
 let height = 400;
+let width = 400;
 
 let cell = width / (grid_size + 2);
 let stroke = cell / 12;
@@ -25,8 +25,8 @@ var score_player1;
 
 // canvas
 var canvas = document.createElement("canvas");
-canvas.height = 400;
-canvas.width = 400;
+canvas.height = height;
+canvas.width = width;
 document.getElementById("game").appendChild(canvas);
 var canvasRect = canvas.getBoundingClientRect();
 var ctx = canvas.getContext("2d");
@@ -55,7 +55,7 @@ setInterval(() => {
   drawGrid();
   drawScores();
   winner()
-}, 1000 / 30);
+}, 1000 / 120);
 
 function drawBoard() {
   ctx.fillStyle = color_bord;
@@ -357,4 +357,12 @@ function winner(){
     localStorage.setItem("Player2Score",score_player2)
     location.href = 'win.html'
   }
+}
+
+const mediaQuery = window.matchMedia('(min-width: 768px)')
+if (mediaQuery.matches) {
+  // height = 400;
+  // width = 400;
+//   canvas.height = height;
+// canvas.width = width;
 }

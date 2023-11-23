@@ -89,9 +89,7 @@ body {
     color: black;
 
 }
-canvas{
-    width: 450px;
-}
+
 
 @media screen and (max-width:1240px) {
     body{
@@ -112,7 +110,7 @@ canvas{
     }
 
 }
-@media all and (max-width:700px){
+@media all and (max-width:760px){
     body{
         height: 100%;
     }
@@ -124,7 +122,5 @@ canvas{
         width: 80vw;
         flex-direction: row;
     }
-    canvas{
-        width: 90vw;
-    }
+
 }
