@@ -105,9 +105,10 @@ body {
 }
 @media all and (max-width:760px){
     body{
-        height: 100vh;
+        height: 100%;
     }
     .container{
+        /* margin-top: 200px; */
         /* border: 2px solid red; */
         flex-direction: column;
     }
@@ -120,6 +121,6 @@ body {
 
 @media all and (max-width:500px){
     body{
-        height: 100vh;
+        /* height: 100vh; */
     }
 }
