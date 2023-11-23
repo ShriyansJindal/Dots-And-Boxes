@@ -1,6 +1,6 @@
 let grid_size = 5;
-let height = 400;
-let width = 400;
+let height = 200;
+let width = 200;
 
 let cell = width / (grid_size + 2);
 let stroke = cell / 12;
@@ -64,7 +64,7 @@ function drawBoard() {
   ctx.strokeRect(stroke / 2, stroke / 2, width - stroke, height - stroke);
 }
 
-function drawDot(x,y) {
+function drawDot(x, y) {
   ctx.fillStyle = color_dot;
   ctx.beginPath();
   ctx.arc(x, y, dot, 0, Math.PI * 2);
@@ -358,16 +358,3 @@ function winner(){
     location.href = 'win.html'
   }
 }
-
-console.log(screen.width)
-
-let script = document.getElementById("script").src
-
-// setInterval(() => {
-//   let widt = Number(screen.width);
-//   console.log(widt)
-//   if(widt<=600){
-//     script.innerText = 'game1.js'
-//   }
-  
-// }, 10);
