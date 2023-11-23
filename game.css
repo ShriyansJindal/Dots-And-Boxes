@@ -84,16 +84,7 @@ body {
 
 }
 
-@media screen and (max-width:1240px) {
-    body{
-        height: 100vh;
-    }
-    
-}
 @media all and (max-width: 800px) {
-    body{
-        /* height: 100%; */
-    }
     .score-board h2{
         font-family: jokerman;
         color: #ff941a;
@@ -104,11 +95,7 @@ body {
 
 }
 @media all and (max-width:760px){
-    body{
-        /* height: 100vh; */
-    }
     .container{
-        /* margin-top: 200px; */
         flex-direction: column;
     }
     .score{
