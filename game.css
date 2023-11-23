@@ -92,7 +92,7 @@ body {
 }
 @media all and (max-width: 800px) {
     body{
-        height: 100vh;
+        height: 100%;
     }
     .score-board h2{
         font-family: jokerman;
@@ -105,7 +105,7 @@ body {
 }
 @media all and (max-width:760px){
     body{
-        height: 100vh;
+        /* height: 100vh; */
     }
     .container{
         /* margin-top: 200px; */
