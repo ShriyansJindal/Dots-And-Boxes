@@ -102,14 +102,14 @@ body {
     }
     
     .heading {
-        margin-top: 15px;
+        margin-top: 10px;
         padding: 0 50px;
         /* padding-bottom: 0%; */
-        gap: 20px;
+        gap: 10px;
     }
     
     .heading h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     
     .heading img {
