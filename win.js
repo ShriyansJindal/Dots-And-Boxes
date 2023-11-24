@@ -31,7 +31,9 @@ else if(player1score<player2score){
     play2.style.boxShadow= '0 0 25px #dfff31'  
 }
 else{
-    document.getElementById("result").textContent = "Game Tie"    
+    document.getElementById("cong").textContent = 'GAME OVER!'
+    document.getElementById("result").textContent = "Tie"
+    document.getElementById("emoji").src = './images/lost.gif'    
 
 }
 // redirecting to game page
