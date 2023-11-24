@@ -8,7 +8,6 @@ else{
   height = 400
   width = 400
 }
-
 let grid_size = 5;
 let cell = width / (grid_size + 2);
 let stroke = cell / 12;
