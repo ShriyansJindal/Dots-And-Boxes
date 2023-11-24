@@ -92,17 +92,7 @@ body {
 .form #start:active{
     transform: scale(0.9);
 }
-@media all and (max-width: 1000px){
-    body{
-        /* height: 100%; */
-    }
-
-}
 @media all and (max-width: 800px) {
-    body {
-        /* height: 100%; */
-    }
-    
     .container {
         /* border: 2px solid red; */
         width: 100%;
@@ -127,9 +117,6 @@ body {
     .heading img {
         width: 350px;
     }
-    
-
-
 
 }
 
