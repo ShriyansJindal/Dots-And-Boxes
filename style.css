@@ -7,6 +7,7 @@
 }
 body {
     width: 100%;
+
     height: 100vh;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
@@ -19,7 +20,7 @@ body {
 .container {
     /* border: 2px solid red; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     
 }
@@ -93,8 +94,8 @@ body {
 @media all and (max-width: 800px) {
     .container {
         /* border: 2px solid red; */
-        width: 100%;
-        height: 100%;
+        /* width: fit-content; */
+        /* height: fit-content; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -119,9 +120,6 @@ body {
 }
 
 @media all and (max-width: 390px){
-    body{
-        height: 100%;
-    }
     .heading{
         gap: 10px;
     }
@@ -130,5 +128,10 @@ body {
     }
     .heading img{
         width: 250px;
+    }
+}
+@media all and (max-width: 380px){
+    body{
+        height: 100%;
     }
 }
