@@ -6,6 +6,7 @@ document.getElementById("form").onsubmit =()=>{
     player2 = document.getElementById("name2").value
     player1nick = document.getElementById("nick-name1").value
     player2nick = document.getElementById("nick-name2").value
+    // storing player names in local storage
     localStorage.setItem("Player1",player1)
     localStorage.setItem("Player2",player2)
     localStorage.setItem("Player1Nick",player1nick)

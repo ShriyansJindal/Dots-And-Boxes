@@ -25,7 +25,7 @@ body {
     display: flex;
     
 }
-
+/* box of heading and photo */
 .heading {
     /* border: 2px solid green; */
     width: 50%;
@@ -51,7 +51,7 @@ body {
 .heading img {
     width: 400px;
 }
-
+/* form for player name */
 .form {
     /* border: 2px solid green; */
     width: 50%;
@@ -65,7 +65,7 @@ body {
 .form input {
     margin: 10px 0px;
 }
-
+/* style for input pox and button */
 .form input[type='text'],
 #start {
     text-align: center;
@@ -78,11 +78,7 @@ body {
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset ,0px 0px 15px 0px #000;
 }
 
-.form input[type='radio']{
-    margin: 0px 10px;
-}
-
-
+/* start button */
 .form #start {
     border-radius: 50px;
     outline: none;

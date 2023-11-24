@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* container */
 .container{
     display: flex;
     flex-direction: column;
@@ -25,26 +26,66 @@ body {
     gap: 40px;
 
 }
+/* heading */
 .container h1{
     font-family: Jokerman;
     color: #ff941a;
     font-size: 60px;
 }
+.score{
+    width: 26vw;
+
+    padding: 20px;
+    border-radius: 30px;
+    background: rgba(0, 13, 55, 0.01);
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* player 1 and player 2 score */
+.player1, .player2{
+    width: 80%;
+    /* height: 50px; */
+    border-radius: 50px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    
+    
+}
+.player1{
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 25px #39ff14;
+}
+/* player2 */
+.player2{
+    background-color: #dfff31;
+    box-shadow: 0 0 25px #dfff31;
+    color: black;
+
+}
+/* result box */
 .congrats{
     width: 40vw;
     /* height: 300px; */
     border-radius: 34px;
     background: rgba(176, 176, 176, 0.50);
     backdrop-filter: blur(25px);
-    padding: 20px 0px;
+    padding: 20px 5px;
     font-size: 22px;
     font-family: 'Jacques Francois', serif;
     text-align: center;
 }
+/* gif */
 .congrats img{
     width: 150px;
 }
-
+/* play-again button */
 button{
     text-align: center;
     width: 300px;
@@ -66,6 +107,10 @@ button:active{
 
     .congrats{
         font-size: 18px;
+    }
+    .score{
+        flex-direction: column;
+        width: fit-content;
     }
 }
 @media all and (max-width:600px){

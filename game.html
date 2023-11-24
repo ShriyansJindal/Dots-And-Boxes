@@ -8,21 +8,27 @@
 </head>
 
 <body>
+    <!-- main container -->
     <div class="container">
+        <!-- score board -->
         <div class="score-board">
             <h2>SCORE BOARD</h2>
             <div class="score">
+                <!-- player score -->
                 <div class="player1"><span id="player1"></span> <span id="player1_score">0</span></div>
                 <div class="player2"><span id="player2"></span> <span id="player2_score">0</span></div>
             </div>
         </div>
- 
+        <!-- game box  -->
         <div class="game" id="game">
-            <!-- <div class="game-box" id="game"></div> -->
+            <!-- canvas for game -->
+            <canvas id="canvas"></canvas>
             </div>
         </div>
     </div>
+    <!-- js for game -->
     <script src="game.js"defer id="script"></script>
+    <!-- js for audio -->
     <script src="audio.js"defer></script>
 
 </body>

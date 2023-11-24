@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="win.css">
 </head>
 <body>
+    <!-- main container -->
     <div class="container">
-        <h1>DOTS & BOXES</h1>
+        <!-- <h1>DOTS & BOXES</h1> -->
+        <div class="score">
+            <!-- player score -->
+            <div class="player1"><span id="player1"></span> - <span id="player1_score">0</span></div>
+            <div class="player2"><span id="player2"></span> - <span id="player2_score">0</span></div>
+        </div>
+        <!-- result box -->
         <div class="congrats">
             <h2>Congratulations</h2>
             <img src="images/victory.gif" alt="">
             <h3 id="result">Player 1 the game</h3>
         </div>
+        <!-- play-again button -->
         <button id="play-again">PLAY AGAIN</button>
     </div>
     <script src="win.js"></script>

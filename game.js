@@ -14,6 +14,7 @@ let cell = width / (grid_size + 2);
 let stroke = cell / 12;
 let dot = stroke;
 let margin = height - (grid_size + 1) * cell;
+// audio
 let click = new Audio("./audio/button.mp3")
 let onBox = new Audio("./audio/onbox.wav")
 // colours
@@ -33,7 +34,7 @@ var score_player2;
 var score_player1;
 
 // canvas
-var canvas = document.createElement("canvas");
+var canvas = document.getElementById("canvas");
 canvas.height = height;
 canvas.width = width;
 document.getElementById("game").appendChild(canvas);

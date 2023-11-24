@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* main container */
 .container{
     /* border: 2px solid red; */
     display: flex;
@@ -25,11 +26,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* heading */
 .container h1{
     font-family: Jokerman;
     color: #ff941a;
     font-size: 60px;
 }
+/* instruction box */
 .instruct{
     width: 70vw;
     height: fit-content;
@@ -41,7 +44,7 @@ body {
     font-family: 'Jacques Francois', serif;
 }
 
-
+/* play button */
 button{
     text-align: center;
     width: 300px;
@@ -65,12 +68,14 @@ button:active{
     }
 }
 @media all and (max-width: 600px){
+    /* instruction box */
     .instruct{
         font-size: 18px;
         padding: 40px;
     }
 }
 @media all and (max-width: 380px){
+    /* instruction box */
     .instruct{
       font-size: 16px;
       padding: 30px;

@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* main container */
 .container{
     padding: 20px 0px;
     /* border: 2px solid red; */
@@ -24,6 +25,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* score board heading */
 .score-board h2{
     font-family: jokerman;
     color: #ff941a;
@@ -31,6 +33,7 @@ body {
     margin-bottom: 0%;
     font-size: 30px;
 }
+/* score-board */
 .score{
     width: 25vw;
     height: 20vw;
@@ -44,6 +47,7 @@ body {
     align-items: center;
     gap: 30px;
 }
+/* player 1 and player 2 score */
 .player1, .player2{
     width: 80%;
     /* height: 50px; */
@@ -56,6 +60,7 @@ body {
     
     
 }
+/* game-box */
 .game{
     width: 60vw;
     height: 500px;
@@ -64,19 +69,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-.game-box{
-    width: 400px;
-    height: 400px;
-    background: rgba(176, 176, 176, 0.50);
-    backdrop-filter: blur(25px);
-    border-radius: 50px;
-}
 
+/* player1 */
 .player1{
     color: #111;
     background: #39ff14;
     box-shadow: 0 0 25px #39ff14;
 }
+/* player2 */
 .player2{
     background-color: #dfff31;
     box-shadow: 0 0 25px #dfff31;
