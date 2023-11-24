@@ -18,10 +18,10 @@
         <!-- Form for player name -->
         <div class="form">
             <form id="form" action="">
-                <input type="text" placeholder="PLAYER 1" value="" id="name1" class="name" required><br>
-                <input type="text" placeholder="PLAYER 2" value="" id="name2" class="name" required><br>
-                <input type="text" placeholder="PLAYER 1 Nick Name" id="nick-name1" class="name" required value=""><br>
-                <input type="text" placeholder="PLAYER 2 Nick Name" id="nick-name2" class="nick-name" required value=""><br>
+                <input type="text" placeholder="PLAYER 1" pattern="[A-Za-z]+" value="" id="name1" class="name" required><br>
+                <input type="text" placeholder="PLAYER 2" pattern="[A-Za-z]+" value="" id="name2" class="name" required><br>
+                <input type="text" placeholder="PLAYER 1 Nick Name" pattern="[A-Za-z]+" id="nick-name1" class="name" required value=""><br>
+                <input type="text" placeholder="PLAYER 2 Nick Name" pattern="[A-Za-z]+" id="nick-name2" class="nick-name" required value=""><br>
                 <input type="submit" id="start" value="START">
                 <br>
             </form>

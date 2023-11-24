@@ -102,6 +102,15 @@ button{
 button:active{
     transform: scale(0.9);
 }
+#quit{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+#quit:active{
+    transform: scale(0.9);
+}
 @media all and (max-width:800px){
 
     .congrats{
@@ -113,6 +122,9 @@ button:active{
     }
     .player1, .player2{
         width: fit-content;
+    }
+    #quit{
+        display: none;
     }
 }
 @media all and (max-width:600px){
