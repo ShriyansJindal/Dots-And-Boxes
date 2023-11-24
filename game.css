@@ -24,6 +24,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+}
+.score-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* score board heading */
 .score-board h2{
@@ -63,7 +70,7 @@ body {
 /* game-box */
 .game{
     width: 60vw;
-    height: 500px;
+    /* height: 500px; */
     /* border: 2px solid yellow; */
     display: flex;
     justify-content: center;
@@ -92,20 +99,20 @@ body {
 #quit:active{
     transform: scale(0.9);
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 700px) {
     .score-board h2{
         font-family: jokerman;
         color: #ff941a;
         text-align: center;
         margin-bottom: 0%;
-        font-size: 20px;
+        font-size: 22px;
     }
     #quit{
         display: none;
     }
 
 }
-@media all and (max-width:760px){
+@media all and (max-width:660px){
     .container{
         flex-direction: column;
     }

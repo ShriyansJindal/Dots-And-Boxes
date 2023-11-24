@@ -1,6 +1,6 @@
 var device = window.innerWidth
 var height,width;
-if(device<600){
+if(device<450){
   height = 300
   width = 300
 }
