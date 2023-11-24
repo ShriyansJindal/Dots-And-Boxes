@@ -1,5 +1,5 @@
 let player1, player2, player1nick, player2nick;
-
+localStorage.clear()
 document.getElementById("form").onsubmit =()=>{
     location.href = 'instructions.html'
     player1 = document.getElementById("name1").value

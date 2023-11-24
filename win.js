@@ -1,7 +1,7 @@
 // getting playscore from localStorage
 let player1score = localStorage.getItem("Player1Score")
 let player2score = localStorage.getItem("Player2Score")
-let name = document.getElementById("name")
+let names = document.getElementById("name")
 // selecting score box
 const play1 = document.getElementById("play1")
 const play2 = document.getElementById("play2")
@@ -14,20 +14,15 @@ let quit = document.getElementById("quit")
 let win =["Good game, good fight!","I can't wait to play again!","Thanks for the challenge!","I'm the ultimate champion!","I'm the master of the game!","I'm loving this game!"]
 let random = Math.floor(Math.random()*win.length)
 // comparing player score
-play1.style.boxShadow= 'none'
-play1.style.boxShadow= 'none'
-if(player1score>player2score){
-    name.textContent = localStorage.getItem("Player1")
+if(player1score > player2score){
+    names.textContent = localStorage.getItem("Player1")
     document.getElementById("result").textContent = win[random] 
-
     play1.style.boxShadow= '0 0 25px #39ff14'
     
 }
-else if(player1score<player2score){
-    name.textContent = localStorage.getItem("Player2") 
-
-        document.getElementById("result").textContent = win[random] 
-
+else if(player1score < player2score){
+    names.textContent = localStorage.getItem("Player2") 
+    document.getElementById("result").textContent = win[random] 
     play2.style.boxShadow= '0 0 25px #dfff31'  
 }
 else{
@@ -42,10 +37,12 @@ document.getElementById("play-again").onclick =()=>{
 }
 
 // score board
-
+let player1 = document.getElementById("player1")
+let player2 = document.getElementById("player2")
+player1.innerText = localStorage.getItem("Player1")
+player2.innerText = localStorage.getItem("Player2")
 document.getElementById("player1_score").innerText = player1score
 document.getElementById("player2_score").innerText = player2score
-
 
 // quit game
 quit.onclick=()=>{
