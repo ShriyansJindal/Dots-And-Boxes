@@ -62,11 +62,6 @@ button{
 button:active{
     transform: scale(0.9);
 }
-@media all and (max-width:900px) {
-    body{
-        height: 100%;
-    }
-}
 @media all and (max-width: 600px){
     /* instruction box */
     .instruct{

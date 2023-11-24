@@ -32,9 +32,9 @@ body {
     color: #ff941a;
     font-size: 60px;
 }
+/* score board */
 .score{
     width: 26vw;
-
     padding: 20px;
     border-radius: 30px;
     background: rgba(0, 13, 55, 0.01);
@@ -54,9 +54,8 @@ body {
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
-    
-    
 }
+/* player1 */
 .player1{
     color: #111;
     background: #39ff14;
@@ -110,6 +109,9 @@ button:active{
     }
     .score{
         flex-direction: column;
+        width: fit-content;
+    }
+    .player1, .player2{
         width: fit-content;
     }
 }
