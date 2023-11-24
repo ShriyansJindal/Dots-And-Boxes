@@ -59,12 +59,12 @@ body {
 .player1{
     color: #111;
     background: #39ff14;
-    box-shadow: 0 0 25px #39ff14;
+    /* box-shadow: 0 0 25px #39ff14; */
 }
 /* player2 */
 .player2{
     background-color: #dfff31;
-    box-shadow: 0 0 25px #dfff31;
+    /* box-shadow: 0 0 25px #dfff31; */
     color: black;
 
 }

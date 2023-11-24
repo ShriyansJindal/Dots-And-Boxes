@@ -62,6 +62,12 @@ button{
 button:active{
     transform: scale(0.9);
 }
+@media all and (max-width:840px) {
+    .instruct{
+        font-size: 20px;
+        padding: 40px 60px;
+    }
+}
 @media all and (max-width: 700px){
     /* instruction box */
     .instruct{
@@ -69,7 +75,7 @@ button:active{
         padding: 40px;
     }
 }
-@media all and (max-width: 380px){
+@media all and (max-width: 440px){
     /* instruction box */
     .instruct{
       font-size: 16px;
