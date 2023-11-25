@@ -18,8 +18,8 @@ https://shriyansjindal.github.io/Dots-And-Boxes/
    - Includes a form prompting users to enter the names and nicknames of both players to personalize the gaming experience.
 
 2. **Instructions Page**
-   - Offers comprehensive instructions on how to play the game, explaining the rules in detail.
-   - Provides guidance to new players, ensuring a smooth and enjoyable gaming experience.
+   - Offers instructions on how to play the game and explaining the rules in detail.
+   - Provides guidance to new players, ensuring a enjoyable gaming experience.
 
 3. **Main Game Page**
    - Features two primary sections:
@@ -30,6 +30,10 @@ https://shriyansjindal.github.io/Dots-And-Boxes/
 4. **Result Page**
    - Presented upon completion of the game, displaying the final scores of both players at the top.
    - Includes celebratory messages, fun emojis, and randomly generated phrases to congratulate the winner and acknowledge their achievement.
+
+## Contributions
+
+Suggestions, and feedback are welcome. Feel free to report any issues or propose enhancements.
 
 ## References
 https://www.cdnfonts.com/
