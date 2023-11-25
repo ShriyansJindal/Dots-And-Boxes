@@ -43,4 +43,7 @@ https://www.youtube.com/
 
 ## Screenshots
 
-screenshots/home.png
+![home](https://github.com/ShriyansJindal/Dots-And-Boxes/screenshots/home.png)
+![instructions](https://github.com/ShriyansJindal/Dots-And-Boxes/assets/92571950/87c3133b-bc63-4093-9d19-41fb9bf41d37)
+![game](https://github.com/ShriyansJindal/Dots-And-Boxes/assets/92571950/a2491388-2a70-4022-ae2e-b5378d72ff82)
+![result](https://github.com/ShriyansJindal/Dots-And-Boxes/assets/92571950/4c705b1c-6666-4836-934e-0b1e2934be4e)
