@@ -92,6 +92,7 @@ body {
     color: white;
     margin: 15px 0;
     box-shadow:  0px 0px 35px 0px #000;
+    cursor: pointer;
 }
 .form #start:active{
     transform: scale(0.9);
