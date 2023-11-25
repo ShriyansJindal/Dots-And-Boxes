@@ -22,7 +22,7 @@ let color_bord = "	#000d37";
 let color_border = "transparent";
 let color_player2 = "yellow";
 let color_player2_hover = "#ffff7f";
-let color_dot = "orange";
+let color_dot = "#ff941a";
 let color_player1 = "#00ff00";
 let color_player1_hover = "#b7ffb7";
 

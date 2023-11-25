@@ -1,6 +1,6 @@
 // getting playscore from localStorage
-let player1score = localStorage.getItem("Player1Score")
-let player2score = localStorage.getItem("Player2Score")
+let player1score =parseInt( localStorage.getItem("Player1Score"))
+let player2score =parseInt( localStorage.getItem("Player2Score"))
 let names = document.getElementById("name")
 // selecting score box
 const play1 = document.getElementById("play1")
